@@ -1,1 +1,3 @@
-console.log('The value of db_URL is:', process.env.DB_URL);
+require('dotenv').config();
+
+console.log('The value of my variable is is:', process.env.DB_URL);

@@ -1,20 +1,19 @@
 {
   "name": "tilles-book",
   "version": "1.0.0",
-  "description": "Web Dev Assignments",
+  "description": "API/back-end for book homework",
   "main": "index.js",
   "engines": {
     "node": "10.x",
     "npm": "6.x"
   },
   "scripts": {
-    "start": "nodemon -e js,graphql -w . -w .env server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "start": "nodemon -e js, graphql -w . -w .env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.ccs.neu.edu/NEU-CS5610-SU20/Tilles-Book.git"
+    "url": "https://github.com/alicetilles/tracker-api"
   },
   "author": "Alice Tilles",
   "license": "ISC",

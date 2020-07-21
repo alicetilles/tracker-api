@@ -16,7 +16,7 @@ app.use('/auth', auth.routes);
 installHandler(app);
 
 // For the server port - prefer  the environment variable if possible
-const port = process.env || 3000;
+const port = process.env.port || 3000;
 
 
 /**
